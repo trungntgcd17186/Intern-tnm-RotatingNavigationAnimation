@@ -1,5 +1,6 @@
 import React from "react";
 import { useState } from "react";
+import { AiOutlineMenu } from "react-icons/ai";
 import "./style.css";
 
 function Home(props) {
@@ -18,7 +19,7 @@ function Home(props) {
     <div className={activeRotate}>
       <div className="content">
         <div className="rotate">
-          <button onClick={handleRotatePage}>Rotate</button>
+          <AiOutlineMenu onClick={handleRotatePage} />
         </div>
         <h1>Amazing Article</h1>
         <span>Florin Pop</span>

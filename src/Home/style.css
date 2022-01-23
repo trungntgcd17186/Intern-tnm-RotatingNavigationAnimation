@@ -51,3 +51,11 @@ nav > h3 {
   transition: transform 0.4s ease-in;
   color: #fff;
 }
+
+.rotate {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background-color: #ff7979;
+  top: 0;
+}
