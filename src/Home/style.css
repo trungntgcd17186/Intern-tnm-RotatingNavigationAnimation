@@ -97,6 +97,7 @@ nav > h3 {
   align-items: center;
   transform: translateX(-80%);
   margin-top: -150px;
+  position: fixed;
 }
 
 .rotate-btn {
